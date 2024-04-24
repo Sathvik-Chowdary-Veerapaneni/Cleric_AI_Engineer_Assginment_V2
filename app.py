@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request
+from werkzeug.utils import secure_filename
+import os
 
 app = Flask(__name__)
 
@@ -8,9 +10,21 @@ def home():
 
 @app.route('/submit', methods=['POST'])
 def submit():
-    # Extract the question and call logs from the form data
+    # Extract the question from the form data
     question = request.form.get('question')
-    call_logs = request.form.get('call_logs')
+
+    # Extract the uploaded files from the form data
+    uploaded_files = request.files.getlist('file_upload')
+
+    # Save the uploaded files to a local directory
+    for file in uploaded_files:
+        filename = secure_filename(file.filename)
+        file.save(os.path.join('uploads', filename))
+
+    # Extract the URLs from the form data
+    urls = request.form.get('call_logs').split(',')
+
+    # TODO: Fetch the files from the URLs
 
     # TODO: Process the question and call logs using an LLM
 
