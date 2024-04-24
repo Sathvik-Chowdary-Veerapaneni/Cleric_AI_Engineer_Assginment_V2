@@ -39,3 +39,7 @@ The application provides two API endpoints:
 
 The application is deployed online. (Include the URL of your deployed application here)
 
+
+
+## Steps
+``` source Cleric/bin/activate ```
