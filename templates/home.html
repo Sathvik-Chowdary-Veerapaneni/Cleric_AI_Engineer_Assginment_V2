@@ -9,7 +9,16 @@
     <form action="/submit" method="post">
         <label for="question">Question:</label><br>
         <input type="text" id="question" name="question"><br>
-        <label for="call_logs">Call Logs:</label><br>
+        <p style="color:red;">
+            <strong>Instructions for Call Logs:</strong><br>
+            1. You can upload log files from your local system.
+            <p>2.<span style="color:black;">Or you can paste the URLs of log files in the text box below.</span>
+                <span style="color:red;">If pasting URLs, please separate each URL with a comma.</span>
+                </p>
+        </p>
+        <label for="file_upload">Upload Log Files:</label><br>
+        <input type="file" id="file_upload" name="file_upload" multiple><br>
+        <label for="call_logs">Or Paste Call Log URLs:</label><br>
         <textarea id="call_logs" name="call_logs"></textarea><br>
         <input type="submit" value="Submit">
     </form>
