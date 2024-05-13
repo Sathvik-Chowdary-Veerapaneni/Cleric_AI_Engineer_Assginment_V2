@@ -1,16 +1,52 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Output Screen</title>
-    </head>
-    <body>
-        <h1>Output Screen</h1>
-        <h2>Question: {{ question }}</h2>
+<head>
+    <title>Output Screen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        .question h2 {
+            margin-top: 0;
+        }
+        .facts {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .facts h3 {
+            margin-top: 0;
+        }
+        .facts ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Output Screen</h1>
+    <div class="question">
+        <h2>Question:</h2>
+        <p>{{ question }}</p>
+    </div>
+    <div class="facts">
         <h3>Extracted Facts:</h3>
         <ul>
             {% for fact in facts %}
             <li>{{ fact }}</li>
             {% endfor %}
         </ul>
-    </body>
+    </div>
+</body>
 </html>

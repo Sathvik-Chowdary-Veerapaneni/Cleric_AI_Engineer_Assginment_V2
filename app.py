@@ -11,7 +11,7 @@ qa_pipeline = pipeline('question-answering')
 def input_screen():
     if request.method == 'POST':
         question = request.form['question']
-        file_names = request.form['file_names'].split('\n')
+        file_names = [file_name.strip() for file_name in request.form['file_names'].split(',')]
         print(f"Question: {question}")
         print(f"File Names: {file_names}")
         
@@ -49,7 +49,7 @@ def submit_question_and_documents():
     facts = extract_facts(question, file_names)
     store_facts(question, facts)
     
-    return jsonify({'message': 'Question and documents submitted successfully'})
+    return '', 200
 
 @app.route('/get_question_and_facts', methods=['GET'])
 def get_question_and_facts():
@@ -66,7 +66,8 @@ def get_question_and_facts():
         'status': 'done'
     }
     
-    return jsonify(response)
+    return jsonify(response), 200
+    
 
 def extract_facts(question, file_names):
     facts = []
