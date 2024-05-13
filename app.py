@@ -7,11 +7,27 @@ app.secret_key = 'your_secret_key'  # Set a secret key for session handling
 
 qa_pipeline = pipeline('question-answering')
 
+import os
+from werkzeug.utils import secure_filename
+
+# Configure the upload folder
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 @app.route('/', methods=['GET', 'POST'])
 def input_screen():
     if request.method == 'POST':
         question = request.form['question']
-        file_names = [file_name.strip() for file_name in request.form['file_names'].split(',')]
+        uploaded_files = request.files.getlist('file_uploads')
+        
+        # Save the uploaded files
+        file_names = []
+        for file in uploaded_files:
+            filename = secure_filename(file.filename)
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(file_path)
+            file_names.append(file_path)
+        
         print(f"Question: {question}")
         print(f"File Names: {file_names}")
         
