@@ -3,10 +3,29 @@
 <head>
     <title>Call Log Fact Extractor - Results</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
-
+    <style>
+        .small-text {
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
     <h1>Call Log Fact Extractor - Results</h1>
+    <div class="small-text">
+        <p><strong>Question:</strong> {{ question }}</p>
+        <p><strong>URLs:</strong></p>
+        <ul>
+            {% for url in urls %}
+                <li>{{ url }}</li>
+            {% endfor %}
+        </ul>
+    </div>
     <!-- Display the extracted facts here -->
+    <ul>
+        {% for fact in facts %}
+            <li>{{ fact }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
