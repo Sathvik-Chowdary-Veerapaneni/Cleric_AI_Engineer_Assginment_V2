@@ -23,7 +23,13 @@ def submit_question_and_documents():
     data = request.get_json()
     question = data['question']
     documents = data['documents']
-    # Process the question and documents here
+
+    # Process the question and documents
+    facts = extract_facts(question, documents)
+
+    # Store the question, facts, and status
+    # ...
+
     return jsonify({'message': 'Question and documents submitted successfully'})
 
 @app.route('/get_question_and_facts', methods=['GET'])
@@ -35,6 +41,30 @@ def get_question_and_facts():
         'status': status
     }
     return jsonify(response)
+
+
+
+def extract_facts(question, documents):
+    # Load a pre-trained model for question-answering
+    qa_pipeline = pipeline('question-answering')
+
+    facts = []
+    for document in documents:
+        # Fetch the call log text from the URL
+        response = requests.get(document)
+        call_log_text = response.text
+
+        # Extract facts using the question-answering model
+        result = qa_pipeline(question=question, context=call_log_text)
+        extracted_fact = result['answer']
+
+        # Process the extracted fact based on document ordering and fact modifications
+        # ...
+
+        facts.append(extracted_fact)
+
+    return facts
+
 
 if __name__ == '__main__':
     app.run(debug=True)
