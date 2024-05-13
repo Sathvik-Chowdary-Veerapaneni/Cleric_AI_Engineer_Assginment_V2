@@ -1,23 +1,62 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Input Screen</title>
-    </head>
-    <body>
-        <h1>Input Screen</h1>
-        <form method="POST" action="/">
+<head>
+    <title>Input Screen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .section label {
+            font-weight: bold;
+            color: #666;
+        }
+        .section input[type="text"],
+        .section textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+        }
+        .section input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .instructions {
+            margin-top: 10px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Input Screen</h1>
+    <form method="POST" action="/">
+        <div class="section">
+            <label for="file_names">Call Log File Names:</label><br />
+            <textarea id="file_names" name="file_names" rows="5" cols="50"></textarea><br />
+            <div class="instructions">Enter the file names of the call logs, one per line.</div>
+        </div>
+        <div class="section">
             <label for="question">Question:</label><br />
             <input type="text" id="question" name="question" /><br />
-            <label for="file_names">Call Log File Names (one per line):</label
-            ><br />
-            <textarea
-                id="file_names"
-                name="file_names"
-                rows="5"
-                cols="50"
-            ></textarea
-            ><br />
-            <input type="submit" value="Submit" />
-        </form>
-    </body>
+            <div class="instructions">Enter a question related to the call logs.</div>
+        </div>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
 </html>
