@@ -1,0 +1,335 @@
+Question: What color scheme did the team decide on for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What color scheme did the team decide on for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
+--------------------------------------------------
+Question: What color scheme did the team decide on for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme
+--------------------------------------------------
+Question: What color scheme did the team decide on for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What color scheme did the team decide on for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark
+--------------------------------------------------
+Question: What color scheme did the team decide on for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's start with the product design discussion
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John: I've been thinking about our decision on the responsive design
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: to ensure our product works well on all devices
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: modular design
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a light theme
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's hold off on the websockets for now
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: to improve latency and provide real-time updates
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I believe we should also consider a light theme option for the user interface
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike: Sounds good to me
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: modular design
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: desktop first
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike: I agree as well
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I also propose we use a dark theme for the user interface
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I agree with this change.
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sara: I agree with John
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: ensure our product works well on all devices
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: reduces eye strain
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: users who prefer a brighter interface
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: While it's important to ensure our product works well on all devices
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: reduces eye strain for users
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: users who find the dark theme too intense
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a great idea
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I agree with John
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: That's a great idea
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike: I agree as well
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I also propose we use a dark theme for the user interface
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I also think the idea of using a modular design doesn't make sense
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I'm on board with that.
+--------------------------------------------------
+Error downloading model 'roberta-base-squad2': roberta-base-squad2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+--------------------------------------------------
+Question: What did John say about the responsive design decision?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Focusing on desktop first will allow us to better cater to our primary users
+--------------------------------------------------

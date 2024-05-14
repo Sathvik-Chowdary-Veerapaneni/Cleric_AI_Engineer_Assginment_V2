@@ -17,7 +17,7 @@ def test_models():
     questions = [question.strip() for question in questions]
 
     # Define the list of models to test
-    models = ['distilbert-base-cased-distilled-squad', 'bert-large-uncased-whole-word-masking-finetuned-squad', 'roberta-base-squad2']
+    models = ['distilbert-base-cased-distilled-squad', 'bert-large-uncased-whole-word-masking-finetuned-squad']
 
     # Define the list of call log files
     call_log_files = ['logs_input/call_log_fdadweq.txt','logs_input/call_log_gfsfdfd.txt','logs_input/call_log_sdfqwer.txt']
