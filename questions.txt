@@ -1,0 +1,50 @@
+What color scheme did the team decide on for the app?
+Did the team discuss using a responsive design for the app?
+What did John suggest for the product's design?
+What was the team's decision regarding the use of websockets?
+Who proposed using a dark theme for the user interface?
+What alternative did John suggest for the user interface theme?
+Did the team agree with John's suggestion for a light theme option?
+What concern did Casey raise about the app's accessibility?
+What did Sara say about John's idea for a modular design?
+Did Mike agree with the idea of using a dark theme for the UI?
+What did John say about the responsive design decision?
+According to John, who will be the primary users of the product?
+Did Sara agree with John's suggestion to focus on desktop users first?
+What did Mike think about the modular design idea?
+Did the team finalize the decision to use a modular design?
+What was the team's final decision on the user interface theme?
+Who suggested using a responsive design for the app?
+What did John say about the flexibility of a modular design?
+Did the team discuss the app's performance and latency?
+What was Mike's opinion on using websockets for real-time updates?
+Did the team consider the app's accessibility for all users?
+What was the purpose of the meeting where the color scheme was discussed?
+Who initially proposed the idea of using a modular design?
+What did Sara think about John's suggestion for a desktop-first approach?
+Did the team discuss any specific colors for the app's theme?
+What was the team's decision on the app's primary target platform?
+Who raised concerns about the workload involved in implementing websockets?
+Did the team discuss any user interface elements other than the color scheme?
+What did John say about the benefits of a modular design?
+Who suggested using a blue color scheme for the app?
+Did the team discuss the timeline for implementing the design decisions?
+What was the main reason for John's suggestion to focus on desktop users?
+Did the team consider any alternative design patterns besides modular design?
+What did Sara say about the importance of accessibility in the app?
+Who proposed the idea of providing both dark and light theme options?
+Did the team discuss any specific user interface components?
+What was Mike's opinion on the idea of using a responsive design?
+Did John provide any examples of how a modular design could be beneficial?
+What was the team's final decision regarding the use of websockets?
+Who suggested that the team should prioritize the app's accessibility?
+Did the team discuss any potential challenges with implementing a modular design?
+What did Sara say about the flexibility provided by a modular design?
+Who expressed concerns about the complexity of implementing websockets?
+Did the team consider any user feedback or preferences when deciding on the color scheme?
+What was John's main argument for focusing on desktop users first?
+Did the team discuss any performance implications of using a responsive design?
+Who suggested that a light theme option would cater to users who prefer a brighter interface?
+What was Mike's opinion on the idea of prioritizing desktop users?
+Did the team discuss any specific accessibility guidelines or standards?
+Who proposed the idea of using a calm and soothing color scheme for the app?
