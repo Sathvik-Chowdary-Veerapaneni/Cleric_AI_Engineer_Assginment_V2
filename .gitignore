@@ -6,3 +6,6 @@
 
 # To ignore Django environment variables
 Cleric
+
+/models
+/uploads

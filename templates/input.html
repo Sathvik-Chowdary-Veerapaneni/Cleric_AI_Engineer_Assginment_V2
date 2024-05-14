@@ -45,16 +45,25 @@
 </head>
 <body>
     <h1>Input Screen</h1>
-    <form method="POST" action="/">
-        <div class="section">
-            <label for="file_uploads">Call Log Files:</label><br />
-            <input type="file" id="file_uploads" name="file_uploads" multiple><br />
-            <div class="instructions">Select the call log files to process.</div>
-        </div>
+    <form method="POST" action="/" enctype="multipart/form-data">
         <div class="section">
             <label for="question">Question:</label><br />
             <input type="text" id="question" name="question" /><br />
             <div class="instructions">Enter a question related to the call logs.</div>
+        </div>
+        <div class="section">
+            <label for="model_name">Select Model:</label><br />
+            <select id="model_name" name="model_name">
+                <option value="distilbert-base-cased-distilled-squad">DistilBERT (distilled-squad)</option>
+                <option value="bert-large-uncased-whole-word-masking-finetuned-squad">BERT (uncased-squad)</option>
+                <option value="roberta-base-squad2">RoBERTa (squad2)</option>
+            </select>
+            <div class="instructions">Select the model to use for fact extraction.</div>
+        </div>
+        <div class="section">
+            <label for="file_uploads">Call Log Files:</label><br />
+            <input type="file" id="file_uploads" name="file_uploads" multiple><br />
+            <div class="instructions">Select the call log files to process.</div>
         </div>
         <input type="submit" value="Submit" />
     </form>
