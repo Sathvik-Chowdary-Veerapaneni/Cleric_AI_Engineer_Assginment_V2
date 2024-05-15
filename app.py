@@ -3,6 +3,7 @@ from flask_cors import CORS
 import os
 from werkzeug.utils import secure_filename
 from transformers import pipeline
+import uuid
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -23,11 +24,15 @@ def input_screen():
         model_name = request.form['model_name']
         uploaded_files = request.files.getlist('file_uploads')
         
+        # Create a unique folder for each set of uploaded files
+        upload_folder = os.path.join(app.config['UPLOAD_FOLDER'], str(uuid.uuid4()))
+        os.makedirs(upload_folder, exist_ok=True)
+        
         # Save the uploaded files
         file_names = []
         for file in uploaded_files:
             filename = secure_filename(file.filename)
-            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file_path = os.path.join(upload_folder, filename)
             file.save(file_path)
             file_names.append(file_path)
         
@@ -40,6 +45,10 @@ def input_screen():
         try:
             facts = extract_facts(question, file_names, qa_pipeline)
             store_facts(question, facts, model_name)
+            
+            # Log the results
+            log_results(question, model_name, facts)
+            
             return redirect(url_for('output_screen'))
         except FileNotFoundError as e:
             error_message = f"File not found: {str(e)}"
@@ -49,6 +58,15 @@ def input_screen():
             return render_template('error.html', error_message=error_message), 500
     
     return render_template('input.html')
+
+def log_results(question, model_name, generated_answer):
+    log_entry = f"Question: {question}\n"
+    log_entry += f"Model Used: {model_name}\n"
+    log_entry += f"Generated Answer: {generated_answer}\n"
+    log_entry += "-" * 50 + "\n"
+    
+    with open('results.log', 'a') as log_file:
+        log_file.write(log_entry)
 
 def download_model(model_name):
     model_path = os.path.join(app.config['MODELS_FOLDER'], model_name)
