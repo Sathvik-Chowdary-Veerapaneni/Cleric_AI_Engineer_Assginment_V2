@@ -1,45 +1,92 @@
-# Call Log Fact Extractor
+# Cleric AI Engineer Assignment
 
-This project is a web application that processes and extracts information from a set of call logs using a Language Learning Model (LLM). The application allows users to submit a question and a list of call logs, and presents a final list of facts extracted from these call logs.
+## Introduction
 
-## Project Setup
+This project is an implementation of the Cleric AI Engineer Assignment, which involves creating a web application that processes and extracts information from a set of call logs using a Language Model (LLM). The application allows users to provide a single question along with a list of call logs, and it extracts and presents a final list of facts relevant to the question.
 
-- Create a virtual environment to avoid conflicts with other Python projects.
-- Add a `.gitignore` file to exclude certain files/folders from version control.
-- Install required dependencies from the project's `requirements.txt` file.
+## Assignment Requirements
 
-## Tech Stack
+The key requirements of the assignment are as follows:
 
-- **Python Flask**: Used to run the local server and handle HTTP requests.
-- **JavaScript (JS)**: Used to handle API calls and client-side interactions.
-- **HTML/CSS**: Used for the frontend of the web application.
+1. Develop a web application with two main screens:
+   - Input Screen: Allows users to submit a question and a list of call logs by providing one or more URLs.
+   - Output Screen: Displays the final list of extracted facts.
 
-## Application Structure
+2. Process the call log documents to extract facts relevant to the question, considering document ordering and fact modifications.
 
-The application consists of two main parts:
+3. Optimize the application for accuracy and use a pre-trained LLM (GPT-4 or a model with comparable performance).
 
-1. **Frontend**: The frontend is built using HTML, CSS, and JS. It consists of two screens:
-    - **Input Screen**: Allows users to submit a question and a list of call logs.
-    - **Output Screen**: Displays the final list of facts extracted from the call logs.
+4. Provide API endpoints for submitting questions and documents, and retrieving question and facts.
 
-2. **Backend**: The backend is built using Python Flask. It processes the question and call logs using an LLM and extracts the relevant facts.
+5. Implement error handling and ensure the application can handle common errors gracefully.
 
-## API
+## Implementation Details
 
-The application provides two API endpoints:
+The application is built using Flask, a Python web framework, and utilizes the Hugging Face Transformers library for natural language processing tasks. The key components of the implementation include:
 
-- `POST /submit_question_and_documents`: Accepts a JSON payload with a question and a list of documents.
-- `GET /get_question_and_facts`: Responds with a JSON object containing the question, facts, and status.
+1. Flask application structure with routes for the Input Screen, Output Screen, and API endpoints.
 
-- Error Handling
-- Testing
-    - Unit tests and integration tests are included in the `tests/` directory.
+2. Integration of pre-trained LLMs from Hugging Face for fact extraction and question-answering tasks.
 
-## Deployment
+3. Document processing logic to handle call log files, extract relevant facts, and consider document ordering and fact modifications.
 
-The application is deployed online. (Include the URL of your deployed application here)
+4. API endpoints for submitting questions and documents, and retrieving question and facts.
 
+5. Error handling and logging functionality to handle common errors and log application events.
 
+6. User interface improvements, including styling, clear instructions, and dropdown menus for model selection.
 
-## Steps
-``` source Cleric/bin/activate ```
+## Usage
+
+To run the application locally, follow these steps:
+
+1. Clone the project repository:
+   ```
+   git clone https://github.com/your-username/cleric-ai-engineer-assignment.git
+   ```
+
+2. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Set up the necessary environment variables (if any).
+
+4. Run the Flask application:
+   ```
+   python app.py
+   ```
+
+5. Access the application in your web browser at `http://localhost:5000`.
+
+## Evaluation and Testing
+
+The application has been tested using a set of predefined questions and call log files. The performance of different pre-trained models (distilbert-base-cased-distilled-squad and bert-large-uncased-whole-word-masking-finetuned-squad) has been evaluated, and the results are stored in the `results.log` file.
+
+To further evaluate the application, you can:
+
+1. Modify the `questions.txt` file to include additional test questions.
+
+2. Place the corresponding call log files in the `logs_input` directory.
+
+3. Run the `test_models()` function in `app.py` to process the questions and generate the `results.log` file.
+
+4. Review the `results.log` file to assess the performance of the models and the accuracy of the extracted facts.
+
+## Future Enhancements
+
+Some potential enhancements to the application include:
+
+1. Fine-tuning the pre-trained models on a dataset specifically designed for fact extraction from conversation logs to improve accuracy.
+
+2. Implementing additional error handling and validation mechanisms to ensure robustness.
+
+3. Enhancing the user interface with more interactive features and visualizations.
+
+4. Integrating additional LLMs or exploring ensemble techniques to improve fact extraction performance.
+
+## Conclusion
+
+This project demonstrates the implementation of a web application that processes call logs and extracts relevant facts based on user-provided questions using pre-trained Language Models. It fulfills the key requirements of the Cleric AI Engineer Assignment and provides a foundation for further enhancements and improvements.
+
+For any questions or inquiries, please contact Sathvik Veerapaneni at [sathvikveerapaneni@gmail.com](mailto: sathvikveerapaneni@gmail.com).
