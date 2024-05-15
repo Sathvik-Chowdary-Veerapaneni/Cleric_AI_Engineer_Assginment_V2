@@ -1498,3 +1498,15 @@ Model: bert-large-uncased-whole-word-masking-finetuned-squad
 Call Log File: logs_input/call_log_sdfqwer.txt
 Generated Answer: John
 --------------------------------------------------
+Question: What is the last conversation of the update ?
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['3\n00:01:49', 'John: Hello, everybody', "Mike: I'm on board with that."]
+--------------------------------------------------
+Question: from the calllogs can you tell what was the team wanted to do ?
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['focus on desktop first', 'add or remove features as needed', 'brighter interface']
+--------------------------------------------------
+Question: from the calllogs can you tell what was the team wanted to do ?
+Model Used: bert-large-uncased-whole-word-masking-finetuned-squad
+Generated Answer: ['our decision on the responsive design', 'go with a modular design', 'I believe we should also consider a light theme option for the user interface']
+--------------------------------------------------
