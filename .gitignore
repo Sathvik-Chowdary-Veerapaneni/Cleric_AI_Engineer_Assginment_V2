@@ -4,8 +4,11 @@
 # Ignore files related to API keys
 .env
 
-# To ignore Django environment variables
+# To ignore flask environment variables to load in github
 Cleric
 
+# to ignore models to upload in github
 /models
+
+#to ignore call log files to github
 /uploads
