@@ -18,3 +18,7 @@ Question: Is the call about eating banana ?
 Model Used: bert-large-uncased-whole-word-masking-finetuned-squad
 Generated Answer: ['I believe we should also consider a light theme option for the user interface']
 --------------------------------------------------
+Question: Who is the speaker
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['John']
+--------------------------------------------------

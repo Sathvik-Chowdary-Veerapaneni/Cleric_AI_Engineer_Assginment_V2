@@ -5,41 +5,58 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 40px; /* Increased margin for better spacing */
+            font-size: 20px; /* Increased base font size for better readability */
+            color: #333; /* Darker text color for better contrast */
+            line-height: 1.6; /* Improved line height for better readability */
         }
         h1 {
             color: #333;
+            font-size: 2em; /* Larger heading size for better emphasis */
         }
         .section {
-            margin-bottom: 20px;
-            padding: 20px;
+            margin-bottom: 30px; /* Increased margin for better spacing */
+            padding: 30px; /* Increased padding for better spacing */
             border: 1px solid #ccc;
-            border-radius: 5px;
+            border-radius: 10px; /* Larger border radius for softer edges */
+            background-color: #f9f9f9; /* Light background color for better contrast */
         }
         .section label {
             font-weight: bold;
             color: #666;
+            display: block;
+            margin-bottom: 15px; /* Increased margin for better spacing */
         }
         .section input[type="text"],
-        .section textarea {
-            width: 100%;
-            padding: 10px;
+        .section textarea,
+        .section select {
+            padding: 15px; /* Increased padding for better touch interaction */
             border: 1px solid #ccc;
             border-radius: 5px;
-            resize: vertical;
+            width: 100%; /* Full width inputs for better usability */
+            box-sizing: border-box; /* Ensure padding doesn't affect width */
+            font-size: 18px; /* Larger font size for better readability */
+        }
+        .section input[type="text"] {
+            background-image: none; /* Remove the arrow image */
         }
         .section input[type="submit"] {
-            padding: 10px 20px;
+            padding: 15px 30px; /* Increased padding for better touch interaction */
             background-color: #4CAF50;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 20px; /* Larger font size for readability */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+        .section input[type="submit"]:hover {
+            background-color: #45a049; /* Slightly darker green on hover */
         }
         .instructions {
             margin-top: 10px;
             color: #888;
-            font-size: 14px;
+            font-size: 16px; /* Larger font for instructions */
         }
     </style>
 </head>
@@ -47,23 +64,22 @@
     <h1>Input Screen</h1>
     <form method="POST" action="/" enctype="multipart/form-data">
         <div class="section">
-            <label for="question">Question:</label><br />
-            <input type="text" id="question" name="question" /><br />
-            <div class="instructions">Enter a question related to the call logs.</div>
+            <label for="question">Question:</label>
+            <input type="text" id="question" name="question" />
+            <div class="instructions">Enter a question related to the call logs. This helps in extracting specific facts.</div>
         </div>
         <div class="section">
-            <label for="model_name">Select Model:</label><br />
+            <label for="model_name">Select Model:</label>
             <select id="model_name" name="model_name">
                 <option value="distilbert-base-cased-distilled-squad">DistilBERT (distilled-squad)</option>
                 <option value="bert-large-uncased-whole-word-masking-finetuned-squad">BERT (uncased-squad)</option>
-                <!-- <option value="roberta-base-squad2">RoBERTa (squad2)</option> -->
             </select>
-            <div class="instructions">Select the model to use for fact extraction.</div>
+            <div class="instructions">Choose a model to use for fact extraction based on the question complexity.</div>
         </div>
         <div class="section">
-            <label for="file_uploads">Call Log Files:</label><br />
-            <input type="file" id="file_uploads" name="file_uploads" multiple><br />
-            <div class="instructions">Select the call log files to process.</div>
+            <label for="file_uploads">Call Log Files:</label>
+            <input type="file" id="file_uploads" name="file_uploads" multiple>
+            <div class="instructions">Select the call log files you wish to process. Multiple files can be selected.</div>
         </div>
         <input type="submit" value="Submit" />
     </form>
