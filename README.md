@@ -89,4 +89,4 @@ Some potential enhancements to the application include:
 
 This project demonstrates the implementation of a web application that processes call logs and extracts relevant facts based on user-provided questions using pre-trained Language Models. It fulfills the key requirements of the Cleric AI Engineer Assignment and provides a foundation for further enhancements and improvements.
 
-For any questions or inquiries, please contact Sathvik Veerapaneni at [sathvikveerapaneni@gmail.com](mailto: sathvikveerapaneni@gmail.com).
+For any questions or inquiries, please contact Sathvik Veerapaneni at sathvikveerapaneni@gmail.com
