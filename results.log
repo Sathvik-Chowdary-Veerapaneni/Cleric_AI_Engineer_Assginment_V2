@@ -1,24 +1,1500 @@
-Question: What are the key product design decisions discussed in the call logs?
-Model Used: distilbert-base-cased-distilled-squad
-Generated Answer: ['It will allow us to easily add or remove features as needed', 'light theme option for the user interface']
+Question: What color scheme did the team decide on for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
 --------------------------------------------------
-Question: What are the key product design decisions discussed in the call logs?
-Model Used: distilbert-base-cased-distilled-squad
-Generated Answer: ['light theme option for the user interface']
+Question: What color scheme did the team decide on for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
 --------------------------------------------------
-Question: What are the key product design decisions discussed in the call logs?
-Model Used: distilbert-base-cased-distilled-squad
-Generated Answer: ['light theme option for the user interface']
+Question: What color scheme did the team decide on for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme
 --------------------------------------------------
-Question: What are the call that you got
-Model Used: distilbert-base-cased-distilled-squad
-Generated Answer: ['1\n00:01:11,430']
+Question: What color scheme did the team decide on for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
 --------------------------------------------------
-Question: Is the call about eating banana ?
-Model Used: bert-large-uncased-whole-word-masking-finetuned-squad
-Generated Answer: ['I believe we should also consider a light theme option for the user interface']
+Question: What color scheme did the team decide on for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark
 --------------------------------------------------
-Question: Who is the speaker
-Model Used: distilbert-base-cased-distilled-squad
-Generated Answer: ['John']
+Question: What color scheme did the team decide on for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's start with the product design discussion
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John: I've been thinking about our decision on the responsive design
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: to ensure our product works well on all devices
+--------------------------------------------------
+Question: Did the team discuss using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: modular design
+--------------------------------------------------
+Question: What did John suggest for the product's design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a light theme
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's hold off on the websockets for now
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: to improve latency and provide real-time updates
+--------------------------------------------------
+Question: What was the team's decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I believe we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike: Sounds good to me
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who proposed using a dark theme for the user interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: modular design
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: desktop first
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
+--------------------------------------------------
+Question: What alternative did John suggest for the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike: I agree as well
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I also propose we use a dark theme for the user interface
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I agree with this change.
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sara: I agree with John
+--------------------------------------------------
+Question: Did the team agree with John's suggestion for a light theme option?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: ensure our product works well on all devices
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: reduces eye strain
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: users who prefer a brighter interface
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: While it's important to ensure our product works well on all devices
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: reduces eye strain for users
+--------------------------------------------------
+Question: What concern did Casey raise about the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: users who find the dark theme too intense
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a great idea
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I agree with John
+--------------------------------------------------
+Question: What did Sara say about John's idea for a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: That's a great idea
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike: I agree as well
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I also propose we use a dark theme for the user interface
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I also think the idea of using a modular design doesn't make sense
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Did Mike agree with the idea of using a dark theme for the UI?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I'm on board with that.
+--------------------------------------------------
+Question: What did John say about the responsive design decision?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Focusing on desktop first will allow us to better cater to our primary users
+--------------------------------------------------
+Question: What did John say about the responsive design decision?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: ensure our product works well on all devices
+--------------------------------------------------
+Question: What did John say about the responsive design decision?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I believe we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: What did John say about the responsive design decision?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I think we should focus on desktop first
+--------------------------------------------------
+Question: What did John say about the responsive design decision?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: to ensure our product works well on all devices
+--------------------------------------------------
+Question: What did John say about the responsive design decision?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I believe we should also consider a light theme option for the user interface.
+--------------------------------------------------
+Question: According to John, who will be the primary users of the product?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: desktops
+--------------------------------------------------
+Question: According to John, who will be the primary users of the product?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John: Hello, everybody
+--------------------------------------------------
+Question: According to John, who will be the primary users of the product?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: users who prefer a brighter interface
+--------------------------------------------------
+Question: According to John, who will be the primary users of the product?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Our primary users will be using our product on desktops
+--------------------------------------------------
+Question: According to John, who will be the primary users of the product?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: According to John, who will be the primary users of the product?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Did Sara agree with John's suggestion to focus on desktop users first?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I agree with this change
+--------------------------------------------------
+Question: Did Sara agree with John's suggestion to focus on desktop users first?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: agree with John
+--------------------------------------------------
+Question: Did Sara agree with John's suggestion to focus on desktop users first?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: That's a great idea
+--------------------------------------------------
+Question: Did Sara agree with John's suggestion to focus on desktop users first?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I agree with this change.
+--------------------------------------------------
+Question: Did Sara agree with John's suggestion to focus on desktop users first?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I agree with John
+--------------------------------------------------
+Question: Did Sara agree with John's suggestion to focus on desktop users first?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Sara: That's a great idea, John
+--------------------------------------------------
+Question: What did Mike think about the modular design idea?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did Mike think about the modular design idea?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sounds good to me
+--------------------------------------------------
+Question: What did Mike think about the modular design idea?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a great idea
+--------------------------------------------------
+Question: What did Mike think about the modular design idea?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did Mike think about the modular design idea?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sounds good to me
+--------------------------------------------------
+Question: What did Mike think about the modular design idea?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I'm on board with that.
+--------------------------------------------------
+Question: Did the team finalize the decision to use a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet
+--------------------------------------------------
+Question: Did the team finalize the decision to use a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: Did the team finalize the decision to use a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team finalize the decision to use a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet
+--------------------------------------------------
+Question: Did the team finalize the decision to use a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I think we should go with a modular design for our product
+--------------------------------------------------
+Question: Did the team finalize the decision to use a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: What was the team's final decision on the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet
+--------------------------------------------------
+Question: What was the team's final decision on the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: we use a dark theme for the user interface
+--------------------------------------------------
+Question: What was the team's final decision on the user interface theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: What was the team's final decision on the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What was the team's final decision on the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
+--------------------------------------------------
+Question: What was the team's final decision on the user interface theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a light theme option
+--------------------------------------------------
+Question: Who suggested using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested using a responsive design for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Who suggested using a responsive design for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: What did John say about the flexibility of a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: the idea of using a modular design doesn't make sense
+--------------------------------------------------
+Question: What did John say about the flexibility of a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: What did John say about the flexibility of a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: What did John say about the flexibility of a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did John say about the flexibility of a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: What did John say about the flexibility of a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I believe we should also consider a light theme option for the user interface.
+--------------------------------------------------
+Question: Did the team discuss the app's performance and latency?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team discuss the app's performance and latency?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's start with the product design discussion
+--------------------------------------------------
+Question: Did the team discuss the app's performance and latency?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: Did the team discuss the app's performance and latency?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: our product works well on all devices
+--------------------------------------------------
+Question: Did the team discuss the app's performance and latency?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: websockets
+--------------------------------------------------
+Question: Did the team discuss the app's performance and latency?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John: After giving it some more thought
+--------------------------------------------------
+Question: What was Mike's opinion on using websockets for real-time updates?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike: I agree as well
+--------------------------------------------------
+Question: What was Mike's opinion on using websockets for real-time updates?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike: Sounds good to me
+--------------------------------------------------
+Question: What was Mike's opinion on using websockets for real-time updates?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: What was Mike's opinion on using websockets for real-time updates?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I agree as well
+--------------------------------------------------
+Question: What was Mike's opinion on using websockets for real-time updates?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sounds good to me
+--------------------------------------------------
+Question: What was Mike's opinion on using websockets for real-time updates?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I'm on board with that.
+--------------------------------------------------
+Question: Did the team consider the app's accessibility for all users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team consider the app's accessibility for all users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: It's trendy and reduces eye strain for users
+--------------------------------------------------
+Question: Did the team consider the app's accessibility for all users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team consider the app's accessibility for all users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: While it's important to ensure our product works well on all devices
+--------------------------------------------------
+Question: Did the team consider the app's accessibility for all users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: Did the team consider the app's accessibility for all users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option
+--------------------------------------------------
+Question: What was the purpose of the meeting where the color scheme was discussed?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: allow us to better cater to our primary users
+--------------------------------------------------
+Question: What was the purpose of the meeting where the color scheme was discussed?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: It will allow us to easily add or remove features as needed
+--------------------------------------------------
+Question: What was the purpose of the meeting where the color scheme was discussed?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: cater to users who prefer a brighter interface
+--------------------------------------------------
+Question: What was the purpose of the meeting where the color scheme was discussed?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: to ensure our product works well on all devices
+--------------------------------------------------
+Question: What was the purpose of the meeting where the color scheme was discussed?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: reduces eye strain for users
+--------------------------------------------------
+Question: What was the purpose of the meeting where the color scheme was discussed?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: provide an alternative to users who find the dark theme too intense
+--------------------------------------------------
+Question: Who initially proposed the idea of using a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who initially proposed the idea of using a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who initially proposed the idea of using a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who initially proposed the idea of using a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who initially proposed the idea of using a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who initially proposed the idea of using a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: What did Sara think about John's suggestion for a desktop-first approach?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: will allow us to better cater to our primary users
+--------------------------------------------------
+Question: What did Sara think about John's suggestion for a desktop-first approach?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: agree with John
+--------------------------------------------------
+Question: What did Sara think about John's suggestion for a desktop-first approach?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a great idea
+--------------------------------------------------
+Question: What did Sara think about John's suggestion for a desktop-first approach?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I agree with this change.
+--------------------------------------------------
+Question: What did Sara think about John's suggestion for a desktop-first approach?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: I agree with John
+--------------------------------------------------
+Question: What did Sara think about John's suggestion for a desktop-first approach?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Sara: That's a great idea, John
+--------------------------------------------------
+Question: Did the team discuss any specific colors for the app's theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike: I agree as well
+--------------------------------------------------
+Question: Did the team discuss any specific colors for the app's theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's start with the product design discussion
+--------------------------------------------------
+Question: Did the team discuss any specific colors for the app's theme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team discuss any specific colors for the app's theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John: I've been thinking about our decision on the responsive design
+--------------------------------------------------
+Question: Did the team discuss any specific colors for the app's theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark
+--------------------------------------------------
+Question: Did the team discuss any specific colors for the app's theme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light
+--------------------------------------------------
+Question: What was the team's decision on the app's primary target platform?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What was the team's decision on the app's primary target platform?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John
+--------------------------------------------------
+Question: What was the team's decision on the app's primary target platform?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board
+--------------------------------------------------
+Question: What was the team's decision on the app's primary target platform?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: What was the team's decision on the app's primary target platform?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: we should go with a modular design
+--------------------------------------------------
+Question: What was the team's decision on the app's primary target platform?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme option
+--------------------------------------------------
+Question: Who raised concerns about the workload involved in implementing websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who raised concerns about the workload involved in implementing websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who raised concerns about the workload involved in implementing websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who raised concerns about the workload involved in implementing websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Who raised concerns about the workload involved in implementing websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Who raised concerns about the workload involved in implementing websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Did the team discuss any user interface elements other than the color scheme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team discuss any user interface elements other than the color scheme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: we use a dark theme for the user interface
+--------------------------------------------------
+Question: Did the team discuss any user interface elements other than the color scheme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team discuss any user interface elements other than the color scheme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John: I've been thinking about our decision on the responsive design
+--------------------------------------------------
+Question: Did the team discuss any user interface elements other than the color scheme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: we use a dark theme
+--------------------------------------------------
+Question: Did the team discuss any user interface elements other than the color scheme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a light theme option
+--------------------------------------------------
+Question: What did John say about the benefits of a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: the idea of using a modular design doesn't make sense
+--------------------------------------------------
+Question: What did John say about the benefits of a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: What did John say about the benefits of a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: This will cater to users who prefer a brighter interface
+--------------------------------------------------
+Question: What did John say about the benefits of a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did John say about the benefits of a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: flexibility we need
+--------------------------------------------------
+Question: What did John say about the benefits of a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I believe we should also consider a light theme option for the user interface.
+--------------------------------------------------
+Question: Who suggested using a blue color scheme for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested using a blue color scheme for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested using a blue color scheme for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested using a blue color scheme for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Who suggested using a blue color scheme for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who suggested using a blue color scheme for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Did the team discuss the timeline for implementing the design decisions?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team discuss the timeline for implementing the design decisions?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's start with the product design discussion
+--------------------------------------------------
+Question: Did the team discuss the timeline for implementing the design decisions?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: Did the team discuss the timeline for implementing the design decisions?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John: I've been thinking about our decision on the responsive design
+--------------------------------------------------
+Question: Did the team discuss the timeline for implementing the design decisions?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's start with the product design discussion
+--------------------------------------------------
+Question: Did the team discuss the timeline for implementing the design decisions?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: What was the main reason for John's suggestion to focus on desktop users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: better cater to our primary users
+--------------------------------------------------
+Question: What was the main reason for John's suggestion to focus on desktop users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: reduces eye strain
+--------------------------------------------------
+Question: What was the main reason for John's suggestion to focus on desktop users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: find the dark theme too intense
+--------------------------------------------------
+Question: What was the main reason for John's suggestion to focus on desktop users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: to ensure our product works well on all devices
+--------------------------------------------------
+Question: What was the main reason for John's suggestion to focus on desktop users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: reduces eye strain
+--------------------------------------------------
+Question: What was the main reason for John's suggestion to focus on desktop users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: users who prefer a brighter interface
+--------------------------------------------------
+Question: Did the team consider any alternative design patterns besides modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: the idea of using a modular design doesn't make sense
+--------------------------------------------------
+Question: Did the team consider any alternative design patterns besides modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: we should go with a modular design for our product
+--------------------------------------------------
+Question: Did the team consider any alternative design patterns besides modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team consider any alternative design patterns besides modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team consider any alternative design patterns besides modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: responsive design
+--------------------------------------------------
+Question: Did the team consider any alternative design patterns besides modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme option for the user interface
+--------------------------------------------------
+Question: What did Sara say about the importance of accessibility in the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I see your point
+--------------------------------------------------
+Question: What did Sara say about the importance of accessibility in the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: agree with John
+--------------------------------------------------
+Question: What did Sara say about the importance of accessibility in the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: That's a great idea
+--------------------------------------------------
+Question: What did Sara say about the importance of accessibility in the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Focusing on desktop first will allow us to better cater to our primary users
+--------------------------------------------------
+Question: What did Sara say about the importance of accessibility in the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: What did Sara say about the importance of accessibility in the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: That's a great idea, John
+--------------------------------------------------
+Question: Who proposed the idea of providing both dark and light theme options?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed the idea of providing both dark and light theme options?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike: Sounds good to me
+--------------------------------------------------
+Question: Who proposed the idea of providing both dark and light theme options?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed the idea of providing both dark and light theme options?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who proposed the idea of providing both dark and light theme options?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who proposed the idea of providing both dark and light theme options?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Did the team discuss any specific user interface components?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Our primary users will be using our product on desktops
+--------------------------------------------------
+Question: Did the team discuss any specific user interface components?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's start with the product design discussion
+--------------------------------------------------
+Question: Did the team discuss any specific user interface components?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team discuss any specific user interface components?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John: I've been thinking about our decision on the responsive design
+--------------------------------------------------
+Question: Did the team discuss any specific user interface components?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
+--------------------------------------------------
+Question: Did the team discuss any specific user interface components?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a light theme option
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of using a responsive design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of using a responsive design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike: Sounds good to me
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of using a responsive design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of using a responsive design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I also think the idea of using a modular design doesn't make sense
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of using a responsive design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sounds good to me
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of using a responsive design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I'm on board with that.
+--------------------------------------------------
+Question: Did John provide any examples of how a modular design could be beneficial?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: the idea of using a modular design doesn't make sense
+--------------------------------------------------
+Question: Did John provide any examples of how a modular design could be beneficial?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: flexibility we need
+--------------------------------------------------
+Question: Did John provide any examples of how a modular design could be beneficial?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: This will cater to users who prefer a brighter interface
+--------------------------------------------------
+Question: Did John provide any examples of how a modular design could be beneficial?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Did John provide any examples of how a modular design could be beneficial?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: Did John provide any examples of how a modular design could be beneficial?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: A light theme
+--------------------------------------------------
+Question: What was the team's final decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet
+--------------------------------------------------
+Question: What was the team's final decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's hold off on the websockets
+--------------------------------------------------
+Question: What was the team's final decision regarding the use of websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board
+--------------------------------------------------
+Question: What was the team's final decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet
+--------------------------------------------------
+Question: What was the team's final decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: to improve latency and provide real-time updates
+--------------------------------------------------
+Question: What was the team's final decision regarding the use of websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: a light theme option for the user interface
+--------------------------------------------------
+Question: Who suggested that the team should prioritize the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested that the team should prioritize the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested that the team should prioritize the app's accessibility?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested that the team should prioritize the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Who suggested that the team should prioritize the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who suggested that the team should prioritize the app's accessibility?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Did the team discuss any potential challenges with implementing a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team discuss any potential challenges with implementing a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's start with the product design discussion
+--------------------------------------------------
+Question: Did the team discuss any potential challenges with implementing a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: Did the team discuss any potential challenges with implementing a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: Did the team discuss any potential challenges with implementing a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: It will allow us to easily add or remove features as needed
+--------------------------------------------------
+Question: Did the team discuss any potential challenges with implementing a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I believe we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: What did Sara say about the flexibility provided by a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did Sara say about the flexibility provided by a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: the flexibility we need
+--------------------------------------------------
+Question: What did Sara say about the flexibility provided by a modular design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: That's a great idea
+--------------------------------------------------
+Question: What did Sara say about the flexibility provided by a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: doesn't make sense
+--------------------------------------------------
+Question: What did Sara say about the flexibility provided by a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility we need
+--------------------------------------------------
+Question: What did Sara say about the flexibility provided by a modular design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: That's a great idea, John
+--------------------------------------------------
+Question: Who expressed concerns about the complexity of implementing websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who expressed concerns about the complexity of implementing websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike: Sounds good to me
+--------------------------------------------------
+Question: Who expressed concerns about the complexity of implementing websockets?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who expressed concerns about the complexity of implementing websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Who expressed concerns about the complexity of implementing websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Who expressed concerns about the complexity of implementing websockets?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Did the team consider any user feedback or preferences when deciding on the color scheme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Let's not make that decision yet.
+--------------------------------------------------
+Question: Did the team consider any user feedback or preferences when deciding on the color scheme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Let's hold off on the websockets
+--------------------------------------------------
+Question: Did the team consider any user feedback or preferences when deciding on the color scheme?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Did the team consider any user feedback or preferences when deciding on the color scheme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John: I've been thinking about our decision on the responsive design
+--------------------------------------------------
+Question: Did the team consider any user feedback or preferences when deciding on the color scheme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: dark theme
+--------------------------------------------------
+Question: Did the team consider any user feedback or preferences when deciding on the color scheme?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option
+--------------------------------------------------
+Question: What was John's main argument for focusing on desktop users first?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: allow us to better cater to our primary users
+--------------------------------------------------
+Question: What was John's main argument for focusing on desktop users first?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: product design discussion
+--------------------------------------------------
+Question: What was John's main argument for focusing on desktop users first?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: giving it some more thought
+--------------------------------------------------
+Question: What was John's main argument for focusing on desktop users first?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: will allow us to better cater to our primary users
+--------------------------------------------------
+Question: What was John's main argument for focusing on desktop users first?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: A modular design will provide us with the flexibility
+--------------------------------------------------
+Question: What was John's main argument for focusing on desktop users first?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: brighter interface
+--------------------------------------------------
+Question: Did the team discuss any performance implications of using a responsive design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: the idea of using a modular design doesn't make sense
+--------------------------------------------------
+Question: Did the team discuss any performance implications of using a responsive design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: to ensure our product works well on all devices
+--------------------------------------------------
+Question: Did the team discuss any performance implications of using a responsive design?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: Did the team discuss any performance implications of using a responsive design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: While it's important to ensure our product works well on all devices
+--------------------------------------------------
+Question: Did the team discuss any performance implications of using a responsive design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: to ensure our product works well on all devices
+--------------------------------------------------
+Question: Did the team discuss any performance implications of using a responsive design?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I believe we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Who suggested that a light theme option would cater to users who prefer a brighter interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested that a light theme option would cater to users who prefer a brighter interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike: Sounds good to me
+--------------------------------------------------
+Question: Who suggested that a light theme option would cater to users who prefer a brighter interface?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who suggested that a light theme option would cater to users who prefer a brighter interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Sara
+--------------------------------------------------
+Question: Who suggested that a light theme option would cater to users who prefer a brighter interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who suggested that a light theme option would cater to users who prefer a brighter interface?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of prioritizing desktop users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike: I agree as well
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of prioritizing desktop users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sounds good to me
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of prioritizing desktop users?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: Mike: I'm on board with that.
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of prioritizing desktop users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: I agree as well
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of prioritizing desktop users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Sounds good to me
+--------------------------------------------------
+Question: What was Mike's opinion on the idea of prioritizing desktop users?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: I'm on board with that.
+--------------------------------------------------
+Question: Did the team discuss any specific accessibility guidelines or standards?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: decision on the responsive design
+--------------------------------------------------
+Question: Did the team discuss any specific accessibility guidelines or standards?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: product design discussion
+--------------------------------------------------
+Question: Did the team discuss any specific accessibility guidelines or standards?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: light theme option for the user interface
+--------------------------------------------------
+Question: Did the team discuss any specific accessibility guidelines or standards?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John: I've been thinking about our decision on the responsive design
+--------------------------------------------------
+Question: Did the team discuss any specific accessibility guidelines or standards?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John: Hello, everybody. Let's start with the product design
+--------------------------------------------------
+Question: Did the team discuss any specific accessibility guidelines or standards?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: we should also consider a light theme option for the user interface
+--------------------------------------------------
+Question: Who proposed the idea of using a calm and soothing color scheme for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed the idea of using a calm and soothing color scheme for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed the idea of using a calm and soothing color scheme for the app?
+Model: distilbert-base-cased-distilled-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
+--------------------------------------------------
+Question: Who proposed the idea of using a calm and soothing color scheme for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_fdadweq.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who proposed the idea of using a calm and soothing color scheme for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_gfsfdfd.txt
+Generated Answer: Mike
+--------------------------------------------------
+Question: Who proposed the idea of using a calm and soothing color scheme for the app?
+Model: bert-large-uncased-whole-word-masking-finetuned-squad
+Call Log File: logs_input/call_log_sdfqwer.txt
+Generated Answer: John
 --------------------------------------------------
