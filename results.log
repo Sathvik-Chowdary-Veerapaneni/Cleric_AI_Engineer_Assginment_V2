@@ -1,0 +1,20 @@
+Question: What are the key product design decisions discussed in the call logs?
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['It will allow us to easily add or remove features as needed', 'light theme option for the user interface']
+--------------------------------------------------
+Question: What are the key product design decisions discussed in the call logs?
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['light theme option for the user interface']
+--------------------------------------------------
+Question: What are the key product design decisions discussed in the call logs?
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['light theme option for the user interface']
+--------------------------------------------------
+Question: What are the call that you got
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['1\n00:01:11,430']
+--------------------------------------------------
+Question: Is the call about eating banana ?
+Model Used: bert-large-uncased-whole-word-masking-finetuned-squad
+Generated Answer: ['I believe we should also consider a light theme option for the user interface']
+--------------------------------------------------
