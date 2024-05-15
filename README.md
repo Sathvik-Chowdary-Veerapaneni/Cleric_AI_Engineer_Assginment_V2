@@ -44,28 +44,26 @@ To run the application locally, follow these steps:
    ```
    git clone https://github.com/your-username/cleric-ai-engineer-assignment.git
    ```
-
-2. Install the required dependencies:
+2. Create a environment using Python
+   ```
+   python -m venv Celric
+   ```
+3. Activate the environment
+   ```
+   source Celric/bin/activate
+   ```
+   
+4. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-3. Run the Flask application:
+5. Run the Flask application:
    ```
    python app.py
    ```
 
-4. Access the application in your web browser at your `local host`.
-
-5. OR, You can automate with bash script with `setup.sh`.
-6. Before that, Make the script executable by running the following command
-   ```
-   chmod +x setup.sh
-   ```
-8. Run the script
-   ```
-   ./setup.sh
-   ``` 
+6. Access the application in your web browser at your `local host`.
 
 ## Evaluation and Testing
 
