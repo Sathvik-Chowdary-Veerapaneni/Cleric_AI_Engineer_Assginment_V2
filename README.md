@@ -50,14 +50,22 @@ To run the application locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. Set up the necessary environment variables (if any).
-
-4. Run the Flask application:
+3. Run the Flask application:
    ```
    python app.py
    ```
 
-5. Access the application in your web browser at `http://localhost:5000`.
+4. Access the application in your web browser at your `local host`.
+
+5. OR, You can automate with bash script with `setup.sh`.
+6. Before that, Make the script executable by running the following command
+   ```
+   chmod +x setup.sh
+   ```
+8. Run the script
+   ```
+   ./setup.sh
+   ``` 
 
 ## Evaluation and Testing
 
@@ -69,7 +77,7 @@ To further evaluate the application, you can:
 
 2. Place the corresponding call log files in the `logs_input` directory.
 
-3. Run the `test_models()` function in `app.py` to process the questions and generate the `results.log` file.
+3. Run the `test_models()` function in `auto_test.py` to process the questions and generate the `results.log` file.
 
 4. Review the `results.log` file to assess the performance of the models and the accuracy of the extracted facts.
 
