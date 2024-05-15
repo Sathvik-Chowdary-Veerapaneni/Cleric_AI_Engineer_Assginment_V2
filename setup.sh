@@ -25,8 +25,11 @@ ve() {
     fi
 }
 
-# Change to the project directory
-cd cleric-ai-engineer-assignment
+# Get the current script's directory
+script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
+
+# Change to the project directory relative to the script's directory
+cd "${script_dir}"
 
 # Create and activate the virtual environment
 ve
