@@ -1510,3 +1510,15 @@ Question: from the calllogs can you tell what was the team wanted to do ?
 Model Used: bert-large-uncased-whole-word-masking-finetuned-squad
 Generated Answer: ['our decision on the responsive design', 'go with a modular design', 'I believe we should also consider a light theme option for the user interface']
 --------------------------------------------------
+Question: What are our product design decisions?
+Model Used: bert-large-uncased-whole-word-masking-finetuned-squad
+Generated Answer: ['responsive design']
+--------------------------------------------------
+Question: What are our product design decisions?
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['responsive design']
+--------------------------------------------------
+Question: What are our product design decisions?
+Model Used: distilbert-base-cased-distilled-squad
+Generated Answer: ['responsive design']
+--------------------------------------------------
