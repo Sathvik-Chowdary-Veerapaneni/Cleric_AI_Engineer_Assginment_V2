@@ -46,11 +46,11 @@ To run the application locally, follow these steps:
    ```
 2. Create a environment using Python
    ```
-   python -m venv Celric
+   python -m venv Cleric
    ```
 3. Activate the environment
    ```
-   source Celric/bin/activate
+   source Cleric/bin/activate
    ```
    
 4. Install the required dependencies:
